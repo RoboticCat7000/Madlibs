@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajath's Madlibs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="madlibs.js"></script>
+</head>
+<body>
+    <h1>Rajath's Madlibs!</h1>
+    <div class="game">
+    <form>
+        <table>
+            <div class="nouns">
+            <tr>
+                <td>Noun</td>
+                <td><input id="noun1" type="text"></td>
+             </tr>
+            <tr>
+                <td>Noun</td>
+                <td><input id="noun2" type="text"></td>
+             </tr>
+             <tr>
+                <td>Noun</td>
+                <td><input id="noun3" type="text"></td>
+             </tr>
+             </div>
+             <div class="adjective">
+                <tr>
+                    <td>Adjective</td>
+                    <td><input id="adj1" type="text"></td>
+                 </tr>          
+                </div>
+
+        </table>
+    </form>
+    <button id="submit_btn" onclick="Story()">Submit</button>
+    <button class="hide" id="done_btn" onclick="Done()">Done</button>
+    <p id="output"></p>
+
+    <button id="another" class="hide" onclick="nextStory()">Another?</button>
+
+    <footer>
+        <a href="credits.html">Credits</a>
+    </footer>
+
+    </div>
+    
+</body>
+</html>

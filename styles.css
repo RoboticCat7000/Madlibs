@@ -1,0 +1,11 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #d0e1f5;
+
+}
+.hide{
+    display: none;
+}
