@@ -43,7 +43,7 @@ function nextStory(){
     document.getElementById("output").innerHTML = "";
     another.classList.add("hide");
     storyNum += 1;
-    Story();
+
 }
 function Done(){
     window.location.assign("./done.html")
